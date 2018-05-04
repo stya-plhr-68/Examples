@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#centerbox {
+			width: 602px;
+			height: 202px;
+			margin: 100px auto;
+			background-color: lightgray;
+			border: 1px solid gray;
+		}
+		.innerbox {
+			width: 200px;
+			height: 200px;
+			display: inline-block;
+		}
+		#innerA {
+			background-color: #ffeeee;
+			overflow-y: hidden;
+		}
+		#innerB {
+			background-color: #eeffee;
+			overflow-y: scroll;
+		}
+		#innerC {
+			background-color: #eeeeff;
+			overflow-y: auto;
+		}
+	</style>
+</head>
+	<div id="centerbox">
+		<div id="innerA" class="innerbox">
+			The CSS ov<!--
+			-->erflow property controls what happens to content that is too big to fit into an area.
+			The overflow property specifies whether to clip content or to add scrollbars when the content of an element is too big to fit in a specified area.
+			By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box.
+			You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.
+		</div><!--
+		--><div id="innerB" class="innerbox">
+			The CSS overflow property controls what happens to content that is too big to fit into an area.
+		</div><!--
+		--><div id="innerC" class="innerbox">
+			The CSS overflow property controls what happens to content that is too big to fit into an area.
+			The overflow property specifies whether to clip content or to add scrollbars when the content of an element is too big to fit in a specified area.
+			By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box.
+			You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.
+		</div>
+	</div>
+<body>
+
+</body>
+</html>
