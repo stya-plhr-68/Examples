@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	
+		.aclass {
+			background-color: tan;
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+		}
+		
+		.bclass {
+			width: 60vw;
+			height: 60vh;
+			background-color: lightgray;
+			margin: 20vh 0 0 20vw;
+			position: relative;
+		}
+	
+	</style>
+</head>
+<body>
+	<div id="emma" class="bclass">
+		bbb
+		<button class="aclass" onclick="simple()">Click me</button>
+	</div>
+	<div class="cclass">ccc</div>
+</body>
+
+<script>
+
+	function simple() {
+		console.log("me patises");
+		document.getElementById("emma").style.color = "red";
+		document.getElementById("emma").style.backgroundColor = "lightcyan";
+	}
+
+</script>
+</html>

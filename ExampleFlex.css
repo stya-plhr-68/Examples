@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+}
+
+#flexcontainer {
+	display: flex;
+	flex-flow: row;
+	height: 100vh;
+}
+
+.flexSide {
+	flex: 2 1 0;
+	overflow-y: auto;
+	text-align: center;
+}
+
+#flexMiddle {
+	flex: 1000 0 0;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+#flexLeft {
+	flex-basis: 333px;
+}
+
+#flexRight {
+	flex-basis: 170px;
+}
+
+.allFlexboxes {
+	background-color: whitesmoke;
+}
+
+.card {
+	width: 150px;
+	height: 200px;
+	border: 1px solid skyblue;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 3px 3px;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: left;
+	overflow-y: auto;
+	background-color: PaleTurquoise;
+}
+
+.label {
+	color: darkcyan;
+}
+
+#flexRight .label {
+	color: PaleVioletRed;
+}
+
+.value {
+	color: blue;
+	padding: 3px 3px 3px 10px;
+}
+
+#flexRight .value {
+	color: IndianRed;
+}
+
+#flexRight .card {
+	background-color: LavenderBlush;
+	border-color: firebrick;
+}
+	

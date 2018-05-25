@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.aclass {
+			color: black;
+			background-color: #F09090E0;
+			width: 120px;
+			height: 300px;
+			position: absolute;
+			top: 30px;
+			left: 30px;
+		}
+		.halfclass {
+			color: black;
+			width: calc(50% - 21px);
+			height: 120px;
+			display: inline-block;
+		}
+		.cclass {
+			color: white;
+			background-color: rgb(60, 10, 200);
+			width: 300px;
+			height: 120px;
+			text-align: right;
+		}
+		.bclass {
+			background-color: springgreen;
+			min-width: 200px;
+		}		
+		.dclass {
+			background-color: tan;
+			border: 1px solid brown;
+			border-radius: 15px;
+		}
+		.dclass:hover {
+			background-color: wheat;
+		}
+		.eclass {
+			color: black;
+			background-color: magenta;
+			width: 40px;
+			height: 120px;
+			display: inline-block;
+		}
+		.eclass, .dclass {
+			padding: 5px 0;
+		}
+	
+	
+	</style>
+</head>
+<body>
+	<div class="aclass">aaa</div>
+	<div class="bclass halfclass">bbb</div><div class="dclass halfclass">ddd</div><div class="eclass">eee</div>
+	<div class="cclass">ccc</div>
+</body>
+</html>

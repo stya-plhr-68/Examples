@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	
+		#idA {
+			width: 200px;
+			height: 200px;
+			display: inline-block;
+			background-color: seashell;
+		}
+		
+		.cA {
+			width: 300px;
+			height: 200px;
+			display: inline-block;
+			background-color: indianred;
+		}
+		
+		.cA:hover {
+			background-color: blue;
+		}
+		
+		#idB {
+			border: 10px solid black;
+			background-color: green;
+			overflow: hidden;
+		}
+		
+		.cSpan {
+			color: white;
+			font-weight: bold;
+		}
+		
+		span {
+			background-color: rgba(0, 0, 0, 0.4);
+		}
+		
+		#idC > span {
+			background-color: rgba(255, 255, 255, 0.4);
+		}
+	
+		#idB .redclass {
+			background-color: rgba(255, 0, 0, 1);
+		}
+	
+	</style>
+</head>
+<body>
+	<div id="idA">
+	</div>
+	<div id="idB" class="cA">
+		<span id="idS1" class="cSpan">Span 1</span>
+		<span id="idS2" class="cSpan">Span 2</span>
+		<div id="idE" class="cA">
+			<span id="idS8" class="redclass">Span 8</span>
+			<span id="idS9" class="cSpan">Span 9</span>
+		</div>
+	</div>
+	<div id="idC" class="cA">
+		<span id="idS3" class="cSpan">Span 3 part 1<br/>Span 3 part 2<br/>Span 3 part 3<br/>Span 3 part 4</span>
+		<span id="idS4" class="">Span 4</span>
+		<span id="idS5" class="cSpan">Span 5</span>
+		<div id="idD" class="cA">
+			<span id="idS6" class="">Span 6</span>
+			<span id="idS7" class="cSpan">Span 7</span>
+		</div>
+	</div>
+</body>
+</html>
