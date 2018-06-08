@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	align-items: stretch;
+}
+
+#i1 {
+	flex: 1 0 auto;
+	background-color: rgb(255, 31, 31);
+}
+
+#i2 {
+	flex: 2 0 auto;
+	background-color: rgb(255, 63, 63);
+}
+
+#i3 {
+	flex: 4 0 auto;
+	background-color: rgb(255, 95, 95);
+}
+
+#i4 {
+	flex: 8 0 auto;
+	background-color: rgb(255, 127, 127);
+}
+
+#i5 {
+	flex: 16 0 auto;
+	background-color: rgb(255, 159, 159);
+}
+
+#i6 {
+	flex: 32 0 auto;
+	background-color: rgb(255, 191, 191);
+}
+
+#i7 {
+	flex: 64 0 auto;
+	background-color: rgb(255, 223, 223);
+}
+
+#i8 {
+	flex: 128 0 auto;
+	background-color: rgb(255, 240, 240);
+}
+
+#fixeditem {
+	flex: 0 0 100px;
+	background-color: blue;
+}
+
