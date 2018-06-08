@@ -1,0 +1,67 @@
+.dialog {
+	position: absolute;
+	width: 320px;
+	height: 170px;
+	border: 3px solid darkcyan;
+	background-color: lightcyan;
+}
+
+.d1 {
+	left: 100px;
+	top: 50px;
+	z-index: 10;
+}
+
+.d2 {
+	left: 250px;
+	top: 120px;
+	z-index: 100;
+}
+
+.d3 {
+	left: 500px;
+	top: 400px;
+}
+
+.innerA {
+	height: 140px;
+	overflow-y: auto;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.innerB {
+	height: 30px;
+	border-top: 1px solid gray;
+	box-sizing: border-box;
+	text-align: right;
+	padding: 3px;
+}
+
+.btn {
+	height: 100%;
+	width: 80px;
+	margin-left: 3px;
+	box-sizing: border-box;
+}
+
+.btn-green {
+	background-color: #76bc9d;
+}
+
+.btn-red {
+	background-color: #bc7680;
+}
+
+.d1 .innerB {
+	background-color: lightgray;
+}
+
+.d2 .innerB {
+	background-color: white;
+}
+
+.d3 .innerB {
+	background-color: magenta;
+}
+

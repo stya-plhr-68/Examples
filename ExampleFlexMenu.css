@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#bodyinner {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+#menu {
+	flex: 0 0 30px;
+	background-color: lightgray;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 4px;
+}
+
+.leftmenubtn {
+	flex: 0 1 auto;
+}
+
+.menubtn {
+	height: 24px;
+	padding: 2px 4px 0 4px;
+	box-sizing: border-box;
+	cursor: default;
+	user-select: none;
+}
+
+#helpbtnarea {
+	flex: 1 1 auto;
+	text-align: right;
+}
+
+#helpbtn {
+	display: inline-block;
+}
+
+.menubtn:hover {
+	background-color: lightblue;
+}
+
+#undermenu {
+	flex: 1 1 auto;
+	overflow-y: auto;
+}
+
+.bigblock {
+	width: 400px;
+	height: 3000px;
+	background-color: pink;
+}
