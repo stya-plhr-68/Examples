@@ -1,0 +1,33 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: lightgray;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.box {
+	flex: 1 1 0;
+	height: 300px;
+	background-color: lightgray;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.innerbox {
+	height: 100%;
+	border: 1px solid darkgray;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 0 15px;
+	text-align: center;
+}
+
+.innerbox > p {
+	font-size: 1.2em;
+}
+
+.innerbox > button {
+	padding: 8px 14px;
+}
